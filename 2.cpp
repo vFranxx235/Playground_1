@@ -52,6 +52,7 @@ int main() {
             do {
                 if (flag == true) {
                     cout << "Error\n";
+                    system("cls");
                 }
                 cout << "Quiere continuar cargando? Y/N\n";
                 cin >> respuesta;
